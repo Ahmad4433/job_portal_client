@@ -1,0 +1,69 @@
+.howitworks-section {
+  width: 100%;
+  padding: 70px 5%;
+  background: #f6faff; /* subtle premium bg */
+  text-align: center;
+}
+
+.hiw-heading {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #1a2b4b;
+  margin-bottom: 45px;
+}
+
+.hiw-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.hiw-card {
+  background: #ffffff;
+  padding: 30px 22px;
+  border-radius: 16px;
+  box-shadow: rgba(149, 157, 165, 0.18) 0px 6px 22px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.hiw-card:hover {
+  transform: translateY(-6px);
+  box-shadow: rgba(149, 157, 165, 0.27) 0px 10px 24px;
+}
+
+.hiw-icon {
+  font-size: 2.2rem;
+  color: #3a86ff;
+  margin-bottom: 18px;
+}
+
+.hiw-card h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #1a2b4b;
+  margin-bottom: 10px;
+}
+
+.hiw-card p {
+  color: #465b77;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+  .hiw-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .hiw-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hiw-heading {
+    font-size: 2rem;
+  }
+}

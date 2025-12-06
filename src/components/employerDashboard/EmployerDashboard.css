@@ -1,0 +1,83 @@
+.employer-dashboard {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  background: #f5f8ff;
+}
+
+/* SIDEBAR */
+.employer-sidebar {
+  width: 240px;
+  background: #ffffff;
+  padding: 25px;
+  border-right: 1px solid #e0e7ff;
+}
+
+.sidebar-logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #3a86ff;
+  margin-bottom: 25px;
+}
+
+.employer-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.employer-sidebar ul li {
+  padding: 12px 0;
+  font-weight: 500;
+  color: #334155;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.employer-sidebar ul li.active,
+.employer-sidebar ul li:hover {
+  color: #3a86ff;
+}
+
+/* MAIN CONTENT */
+.employer-main {
+  flex: 1;
+  padding: 40px;
+}
+
+.emp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stats-grid {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.stat-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 6px 20px;
+}
+
+.stat-card h3 {
+  font-size: 2rem;
+  color: #1a2b4b;
+}
+
+.stat-card p {
+  color: #64748b;
+}
+
+.section-title {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #1a2b4b;
+  font-size: 1.5rem;
+  font-weight: 700;
+}

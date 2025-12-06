@@ -1,0 +1,112 @@
+.jobcard {
+  background: #ffffff;
+  padding: 22px;
+  border-radius: 16px;
+  box-shadow: rgba(149, 157, 165, 0.18) 0px 6px 22px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.jobcard:hover {
+  transform: translateY(-5px);
+  box-shadow: rgba(149, 157, 165, 0.28) 0px 10px 28px;
+}
+
+.jobcard-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.company-logo img {
+  width: 55px;
+  height: 55px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.job-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a2b4b;
+}
+
+.company-name {
+  font-size: 0.9rem;
+  color: #445b77;
+  margin-top: 3px;
+}
+
+.job-meta {
+  margin-top: 14px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.job-location {
+  color: #3a86ff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.job-category {
+  padding: 4px 10px;
+  background: #eef3ff;
+  color: #2f6fd3;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+.job-desc {
+  margin: 15px 0;
+  color: #5e6c80;
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.skills-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.skill-badge {
+  background: #f4f8ff;
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  color: #1a2b4b;
+  border-radius: 10px;
+  border: 1px solid #e1e9ff;
+}
+
+.view-btn {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  background: #3a86ff;
+  color: white;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.view-btn:hover {
+  background: #2f6fd3;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .job-meta {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .jobcard {
+    padding: 18px;
+  }
+}

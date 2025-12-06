@@ -1,0 +1,12 @@
+.applicants-page {
+  padding: 40px;
+  background: #f5f8ff;
+  min-height: 100vh;
+}
+
+.applicants-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #1a2b4b;
+  margin-bottom: 25px;
+}

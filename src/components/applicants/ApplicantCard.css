@@ -1,0 +1,82 @@
+.applicant-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 6px 20px;
+  margin-bottom: 18px;
+}
+
+.applicant-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.app-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.app-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a2b4b;
+}
+
+.app-email {
+  font-size: 0.9rem;
+  color: #5e6c80;
+}
+
+.app-exp {
+  font-size: 0.9rem;
+  color: #334155;
+}
+
+.status-badge {
+  margin-top: 5px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.status-badge.new {
+  background: #eaf4ff;
+  color: #3a86ff;
+}
+
+.status-badge.shortlisted {
+  background: #eaffea;
+  color: #139a43;
+}
+
+.status-badge.rejected {
+  background: #ffebeb;
+  color: #e63946;
+}
+
+.applicant-actions {
+  display: flex;
+  gap: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 650px) {
+  .applicant-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .applicant-actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+}

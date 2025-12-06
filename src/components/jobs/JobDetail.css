@@ -1,0 +1,126 @@
+.jobdetail-page {
+  padding: 60px 5%;
+  background: #f7faff;
+}
+
+/* HEADER */
+.jobdetail-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.jd-logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+.jd-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1a2b4b;
+}
+
+.jd-company {
+  font-size: 1rem;
+  color: #445b77;
+}
+
+/* META INFO */
+.jd-meta {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+.jd-meta span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #eef4ff;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #1a2b4b;
+  font-size: 0.95rem;
+}
+
+/* SECTION */
+.jd-section {
+  margin-bottom: 35px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: rgba(149, 157, 165, 0.15) 0px 6px 22px;
+}
+
+.jd-section h2 {
+  font-size: 1.5rem;
+  color: #1a2b4b;
+  margin-bottom: 12px;
+}
+
+.jd-section p,
+.jd-section li {
+  color: #445b77;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.jd-section ul {
+  margin-left: 18px;
+}
+
+/* SKILLS */
+.jd-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.jd-skill {
+  background: #f0f5ff;
+  border: 1px solid #d7e2ff;
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  color: #1a2b4b;
+}
+
+/* APPLY BAR */
+.jd-apply-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #ffffff;
+  padding: 15px 5%;
+  box-shadow: rgba(0,0,0,0.15) 0px -4px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.apply-btn {
+  background: #3a86ff;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.apply-btn:hover {
+  background: #2f6fd3;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .jd-title {
+    font-size: 1.7rem;
+  }
+}

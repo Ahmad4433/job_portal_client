@@ -1,0 +1,50 @@
+.employer-job-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 6px 20px;
+  margin-bottom: 18px;
+}
+
+.ejc-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ejc-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a2b4b;
+}
+
+.ejc-company {
+  font-size: 0.9rem;
+  color: #5e6c80;
+}
+
+.ejc-type {
+  background: #eaf0ff;
+  color: #3a86ff;
+  padding: 5px 12px;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.ejc-location {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #334155;
+}
+
+.ejc-applicants {
+  margin-top: 4px;
+  color: #49607a;
+  font-size: 0.85rem;
+}
+
+.ejc-actions {
+  margin-top: 15px;
+  display: flex;
+  gap: 10px;
+}
